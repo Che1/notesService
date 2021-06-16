@@ -16,13 +16,3 @@ class NoteSerializer(serializers.ModelSerializer):
             'text',
             'owner',
         )
-
-
-# class UserSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = user_model
-#         fields = (
-#             'id',
-#             'username',
-#             'email',
-#         )
